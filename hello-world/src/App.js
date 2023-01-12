@@ -14,11 +14,12 @@ import Stylesheets from './components/Stylesheets';
 import InLine from './components/InLine';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import { Form } from './components/Form';
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
       {
       // <Greet name="Clarke" superhero="Superman">
       //   <p>This is a children prop</p>
@@ -33,10 +34,11 @@ function App() {
       // <EventBind />
       // <UserGreeting />
       // <PersonList />
-      <>
-          <Stylesheets />
-          <InLine />
-      </>
+      // <>
+      //     <Stylesheets />
+      //     <InLine />
+      // </>
+      <Form></Form>
       }
     </div>
   );
