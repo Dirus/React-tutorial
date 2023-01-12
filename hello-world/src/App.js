@@ -19,6 +19,7 @@ import FragmentDemo from './components/FragmentDemo';
 import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './RefsDemo';
+import FocusInput from './components/FocusInput';
 function App() {
   return (
     <div className="App">
@@ -47,7 +48,8 @@ function App() {
       {/* <FragmentDemo></FragmentDemo> */}
       {
         // <ParentComp></ParentComp>
-        <RefsDemo></RefsDemo>
+        // <RefsDemo></RefsDemo>
+        <FocusInput></FocusInput>
       }
     </div>
   );
