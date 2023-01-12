@@ -18,6 +18,7 @@ import { Form } from './components/Form';
 import FragmentDemo from './components/FragmentDemo';
 import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './RefsDemo';
 function App() {
   return (
     <div className="App">
@@ -45,7 +46,8 @@ function App() {
       }
       {/* <FragmentDemo></FragmentDemo> */}
       {
-        <ParentComp></ParentComp>
+        // <ParentComp></ParentComp>
+        <RefsDemo></RefsDemo>
       }
     </div>
   );
